@@ -1,0 +1,3 @@
+6
+6,dog,0,images/linked list.jpg
+2,boomer,1,images/Capture.PNG

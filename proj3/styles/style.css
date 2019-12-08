@@ -1,0 +1,76 @@
+#banner {
+    background-color: #EBF5FF; 
+    border-bottom: solid;
+    border-top:solid;
+    }
+    body {
+        font-size: 1em;
+        font-weight: normal;
+        font-family: "Century Gothic",Verdana,sans-serif;
+        color: #000000;
+        text-align: left;
+        margin-left: 10%;
+        margin-right: 10%;
+        width:80%;
+        margin: 0 auto;
+      }
+      h2
+      {
+          text-align:center;
+      }
+      #border{
+        border-style: solid;
+        }  
+nav{
+    clear:left;
+    padding:2em;
+    text-align: center;
+  }
+  nav ul li {
+    float: left;
+    text-align: center;
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+  nav ul li a {
+    padding: 0.25em 1em;
+    text-decoration: none; /* no underline */
+    background-color: #EBF5FF; /* pale bluish white */
+    color: #4312AE; /* dark blue */
+    border: 2px solid black;
+    border-top-left-radius: 1em 1em; /* rounded corner! */
+    border-top-right-radius: 1em 1em; /* another rounded corner! */
+  }
+  nav ul li a:hover, nav ul li a:focus {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+  }
+  ul{
+    list-style-type: none;
+}
+table{
+    border:solid;
+    margin:5%;
+    margin-bottom: 20%;
+    width:90%;     
+    
+  }
+  caption{
+    font-size:2em;
+  }
+  th{
+    padding:.5em;
+    text-align: left;
+    border: solid;
+    font-size:2em;
+  }
+  td{
+    font-size: 1em;    
+  }
+  h1 {
+    font-size:3em;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+  }
