@@ -51,7 +51,7 @@ file_put_contents($file, $current);
       </tr>
       <tr>
         <td>Image</td>    
-        <td style="height:200px;width:100px;"><?php echo "<img style='height: 100%; width: 100%; object-fit: contain' src='$target_file'>";?></td> 
+        <td style="height:500px;width:300px;"><?php echo "<img style='height: 100%; width: 100%; object-fit: contain' src='$target_file'>";?></td> 
       </tr>
     </table>
     <p><a href="viewAllDogs.php">All Dogs</a>

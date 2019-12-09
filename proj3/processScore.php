@@ -35,7 +35,6 @@
     {
         $id=$_POST["id2"];
     }
-    echo $id;
     $file = 'data/boys.txt';
     $pets=readPetsFile();
     $arr = file("data/boys.txt") or die('ERROR: Cannot find file');
@@ -58,6 +57,8 @@
 }
 ?>
 <a href="viewAllDogs.php">All Dogs</a>
+<br>
+<a href="pickDog.php">Pick More</a>
 </main>
 </body>
 </html>

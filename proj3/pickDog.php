@@ -44,15 +44,17 @@ while($pet1==$pet2)
     $pet2=getRandomBoy();
 }
 echo '<div>';
-echo "<p>".$pet1['name']."<br>";
-echo '<img style="height:30%    ;width:30%;"'."src='". $pet1['file'] ."'".'>';
+echo "<h3>".$pet1['name']."</h3>";
+echo '<img style="height:80%;width:80%;"'."src='". $pet1['file'] ."'".'>';
 echo '<input type="hidden", name ="id1", value="'.$pet1['id'].'">';
+echo '<br>';
 echo '<input type="submit", name="1">';
 echo '</div>';
 echo '<div>';
-echo "<p>".$pet2['name']."<br>";
-echo '<img style="height:30%;width:30%;"'."src='". $pet2['file'] ."'".'>';
+echo "<h3>".$pet2['name']."</h3>";
+echo '<img style="height:80%;width:80%;"'."src='". $pet2['file'] ."'".'>';
 echo '<input type="hidden", name ="id2", value="'.$pet2['id'].'">';
+echo '<br>';
 echo '<input type="submit", name="2">';
 echo '</div>';
 ?>

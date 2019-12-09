@@ -43,7 +43,7 @@ function readPetsFile() {
             echo '<tr>';
             echo '<td> '. $pet['name'] . '</td>';
             echo '<td>' . $pet['score'] . '</td>';
-            echo '<td style="height:200px;width:200px;">'."<img style='height: 100%; width: 100%' src='". $pet['file'] ."'".'></td>'; 
+            echo '<td style="height:400px;width:400px;">'."<img style='height: 100%; width: 100%' src='". $pet['file'] ."'".'></td>'; 
             echo '</tr>';    
         } 
     ?>            

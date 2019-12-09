@@ -14,9 +14,19 @@
         width:80%;
         margin: 0 auto;
       }
-      h2
+      h2, h3
       {
           text-align:center;
+      }
+      #picker
+      {
+        display: flex;  
+        flex-direction: row;
+      }
+      #picker div
+      {
+        height:500px;  
+        width: 800px;
       }
       #border{
         border-style: solid;
