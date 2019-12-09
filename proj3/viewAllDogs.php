@@ -28,27 +28,22 @@ function readPetsFile() {
     return $pets;
  }
 ?>
-<table class="table table-striped mt-5">
-    <thead>
-    <tr>
-        <th>Name</th>
-        <th>Score</th>
-        <th>Picture</th>
-    </tr>
-    </thead>
-    <tbody>
-    <?php  
+<?php
         $pets = readPetsFile();
         foreach ($pets as $pet) {
-            echo '<tr>';
-            echo '<td> '. $pet['name'] . '</td>';
-            echo '<td>' . $pet['score'] . '</td>';
-            echo '<td style="height:400px;width:400px;">'."<img style='height: 100%; width: 100%' src='". $pet['file'] ."'".'></td>'; 
-            echo '</tr>';    
-        } 
-    ?>            
-    </tbody>
-</table>
+
+echo '<div class="card text-center" style="width: 18rem;">';
+echo '<img class="card-img-top" src="'. $pet['file'] .'" alt="Card image cap" style="height: 100%;width: 100%;">';
+echo '<div class="card-body">';
+echo '<h5 class="card-title">' . $pet['name'] . '</h5>';
+echo '<p class="card-text">' . $pet['score'] . '</p>';
+echo '</div>';
+echo '</div>';
+            
+        }
+?>
+
 </main>
 </body>
+
 </html>
