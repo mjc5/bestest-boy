@@ -28,7 +28,7 @@ function readPetsFile() {
     return $pets;
  }
 ?>
-<table>
+<table class="table table-striped mt-5">
     <thead>
     <tr>
         <th>Name</th>
