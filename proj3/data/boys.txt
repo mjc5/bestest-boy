@@ -1,9 +1,9 @@
 8
-1,Buster,4,images/buster.jpg
-2,Joy,2,images/joey.jpg
+1,Buster,6,images/buster.jpg
+2,Joy,4,images/joey.jpg
 3,Charles,1,images/charles.jpg
-4,Champ,0,images/white.jpg
+4,Champ,2,images/white.jpg
 5,Sunny,2,images/dog.jpg
 6,Kevin,0,images/bup.jpg
-7,Darwin,1,images/pug.jpg
-8,Gus,2,images/floof.jpg
+7,Darwin,2,images/pug.jpg
+8,Gus,3,images/floof.jpg
