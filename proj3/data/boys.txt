@@ -10,7 +10,7 @@
 9,Juiceworld,0,images/9.jpg
 10,Emma,0,images/10.jpg
 11,Coco,0,images/11.jpg
-12,Maggie,0,images/12.jpg
+12,Maggie,1,images/12.jpg
 13,Champ,0,images/13.jpg
 14,Sunny,0,images/14.jpg
 15,Darwin,0,images/15.jpg

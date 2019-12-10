@@ -56,9 +56,12 @@
     file_put_contents($file,$contents);
 }
 ?>
-<a href="viewAllDogs.php">All Dogs</a>
-<br>
-<a href="pickDog.php">Pick More</a>
+
+<div class="text-center mt-5">
+<a class="btn btn-danger" href="viewAllDogs.php" role="button">View All Dogs</a>
+<a class="btn btn-primary ml-5" href="pickDog.php" role="button">Pick More</a>
+</div>
+
 </main>
 </body>
 </html>
