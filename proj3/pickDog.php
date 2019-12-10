@@ -54,7 +54,7 @@ echo '<img style="height:100%;width:100%;"'."src='". $pet1['file'] ."'".'>';
 echo '<input type="hidden", name ="id1", value="'.$pet1['id'].'">';
 echo '<br>';
 
-echo '<input class="btn btn-outline-success mt-auto" type="submit", name="1">';
+echo '<input class="btn btn-outline-success mt-auto" Value="This one" type="submit", name="1">';
 echo '</div>';
 echo '</div>';
     
@@ -64,7 +64,7 @@ echo "<h3>".$pet2['name']."</h3>";
 echo '<img style="height:100%;width:100%;"'."src='". $pet2['file'] ."'".'>';
 echo '<input type="hidden", name ="id2", value="'.$pet2['id'].'">';
 echo '<br>';
-echo '<input class="btn btn-outline-success position-absolute" type="submit", name="2">';
+echo '<input class="btn btn-outline-success position-absolute" Value="That one" type="submit", name="2">';
 echo '</div>';
 echo '</div>';
 ?>
