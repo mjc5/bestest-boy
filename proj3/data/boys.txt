@@ -1,4 +1,4 @@
-20
+22
 1,Henry,0,images/1.jpg
 2,Josh,0,images/2.jpg
 3,Gordon,0,images/3.jpg
@@ -19,3 +19,5 @@
 18,Joy,0,images/18.jpg
 19,Buster,0,images/19.jpg
 20,Wallace,0,images/20.jpg
+21,Boomer,0,images/white.jpg
+22,Dawg,0,images/pup.jpg
