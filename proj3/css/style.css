@@ -1,2 +1,9 @@
 # Empty CSS file for your own CSS
 .top-buffer { margin-top:20px; }
+
+.center-cropped {
+  width: 100px;
+  height: 100px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}

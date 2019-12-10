@@ -50,7 +50,9 @@ while($pet1==$pet2)
 echo '<div class="card">';
 echo '<div class="card-block d-flex flex-column">'; 
 echo "<h3>".$pet1['name']."</h3>";
-echo '<img style="height:100%;width:100%;"'."src='". $pet1['file'] ."'".'>';
+      
+echo '<img style="height:500px;width:500px;"'."src='". $pet1['file'] ."'".'>';
+      
 echo '<input type="hidden", name ="id1", value="'.$pet1['id'].'">';
 echo '<br>';
 
@@ -61,7 +63,9 @@ echo '</div>';
 echo '<div class="card ml-5">';
 echo '<div class="card-block d-flex flex-column">';
 echo "<h3>".$pet2['name']."</h3>";
-echo '<img style="height:100%;width:100%;"'."src='". $pet2['file'] ."'".'>';
+      
+echo '<img style="height:500px;width:500px;"'."src='". $pet2['file'] ."'".'>';
+      
 echo '<input type="hidden", name ="id2", value="'.$pet2['id'].'">';
 echo '<br>';
 echo '<input class="btn btn-outline-success position-absolute" Value="That one" type="submit", name="2">';
